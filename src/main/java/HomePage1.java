@@ -14,9 +14,10 @@ public class HomePage1 extends BasePage {
 		PageFactory.initElements(driver, this);
 		
 	}
-	/*public void Dressclk(){
+	public void Dressclk(){
 		Dressbtn.click();
-	}*/
+                Dressbtn.click();
+
 	public void search(){
 		searchbtn.click();
 	}

@@ -22,6 +22,7 @@ public class DressPageObject extends BasePage{
 		String value=arr[2];
 		int number=Integer.parseInt(value);
 		return number;
+                
 	}
 	
 	public int getproductcount(){
